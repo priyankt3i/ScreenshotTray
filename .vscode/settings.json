@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "devcontainers"
-    ]
+    ],
+    "dotnet.preferCSharpExtension": true
 }
