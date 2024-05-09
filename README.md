@@ -1,30 +1,30 @@
-# PowerPlanSwitcher
+# SystemTrayApp
+A quick example of a basic system tray app using .NET Windows Forms. Use this to build your own solutions.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/k4umrwnp4grsp164/branch/main?svg=true)](https://ci.appveyor.com/project/SebastianBecker2/powerplanswitcher/branch/main)
+The application displays an empty window at the center of the screen. Minimizing or closing the window hides it to the system tray. Double-clicking on the system tray icon reveals the window again. To exit the application, right-click on the system tray icon and choose Exit.
 
-Switch your windows power plan easily and quickly with this tray-icon tool.
+# License
+MIT License
 
-![image](https://github.com/SebastianBecker2/PowerPlanSwitcher/assets/35063968/62602cc2-0a5b-4736-9ba6-0ba5581dba4a)
+Copyright (c) 2016 Kevin Sacro
 
-Or let it automatically switch between power plans depending on what you do.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-![image](https://github.com/SebastianBecker2/PowerPlanSwitcher/assets/35063968/0c11f04f-b8bc-4d8b-8aea-e9651242b0ba)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Create rules easily by selecting an active process.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-![image](https://github.com/SebastianBecker2/PowerPlanSwitcher/assets/35063968/08d490dd-b4db-4758-b539-f6fc551985cf)
-
-Or define the rule manually by matching the path of the executable as "Match exact path", "Path starts with" or "Path ends with.
-
-![image](https://github.com/SebastianBecker2/PowerPlanSwitcher/assets/35063968/93bb14bb-becc-4143-a79a-3ab1131bc531)
-
-
-PowerPlanSwitcher is using the following tools, resources and libraries:
-
-- [.NET 8](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8)
-- [Newtonsoft.Json](https://www.newtonsoft.com/json)
-- The amazing [FatCow IconPack](https://www.fatcow.com/free-icons)
-- [WindowsAPICodePack](https://github.com/contre/Windows-API-Code-Pack-1.1)
-- [Vanara](https://github.com/dahall/Vanara)
-- [Serilog](https://serilog.net/)
-- [WiX Toolset 3.0](https://wixtoolset.org/)
+# Icon License
+You may choose to use the default icon included this app for your own solutions. Just so all bases are covered for you: it is provided  under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
