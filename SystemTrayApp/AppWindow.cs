@@ -6,7 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reactive;
+using System.Windows;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace SystemTrayApp
 {
@@ -30,7 +33,7 @@ namespace SystemTrayApp
             this.SystemTrayIcon.Visible = true;
 
             // Modify the right-click menu of your system tray icon here
-            ContextMenu menu = new ContextMenu();
+            ContextMenuStrip menu = new ContextMenuStrip();
             menu.MenuItems.Add("Exit", ContextMenuExit);
             this.SystemTrayIcon.ContextMenu = menu;
 
